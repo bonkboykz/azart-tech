@@ -96,8 +96,7 @@ const Product = () => {
       desc: '',
       cards: [
         {
-          cardTitle:
-            'span class="question" id="pitch creating">pitch creating</span>',
+          cardTitle: 'pitch creating',
           cardDesc:
             "in the pursuit of making an MVP faster, many ignore the importance of the pitch deck, making it for the sake of a “tick”, but we invest the lion's share of efforts in it, because numbers and risk guarantees are more important to the investor/ partner",
         },
