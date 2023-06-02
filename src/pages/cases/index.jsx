@@ -6,7 +6,6 @@ import Footer from '@/components/shared/Footer';
 import Form from '@/components/home/Form';
 import { format } from 'date-fns';
 import { useRouter } from 'next/router';
-import { useRef, useState } from 'react';
 
 const FormattedDate = ({ date }) => {
   return <p>{format(new Date(date), 'd MMM. yyyy').toLowerCase()}</p>;
